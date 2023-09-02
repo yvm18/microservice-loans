@@ -47,7 +47,7 @@ tasks.named('test') {
 }
 
 tasks.named('bootBuildImage') {
-    imageName = "microservice/loans"
+    imageName = "microservice_loans"
     docker {
         host = "/Users/e7zexv9/.docker/run/docker.sock"
     }
